@@ -1,0 +1,22 @@
+{
+  "name": "feedbackmvc",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Lucas Borges <lucasnsborges@gmail.com>",
+  "license": "ISC",
+  "main": "src/index.js",
+  "scripts": {
+    "changelog": "run-changelog",
+    "deploy": "run-deploy",
+    "start": "run-start --hot",
+    "build": "run-build",
+    "postversion": "run-postversion",
+    "version": "run-version"
+  },
+  "dependencies": {
+    "hyperhtml": "^2.16.3"
+  },
+  "devDependencies": {
+    "wprun": "djalmajr/wprun"
+  }
+}
