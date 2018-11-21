@@ -44,4 +44,17 @@
 .make-suggestion {
   margin-left: 2em;
   order: 2;
+  width: 100%;
+}
+
+@media screen {
+  @media (max-width: 900px) {
+    .content {
+      flex-wrap: wrap-reverse;
+    }
+
+    .make-suggestion {
+      margin-left: 0;
+    }
+  }
 }

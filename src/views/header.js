@@ -10,8 +10,8 @@ export default html => html`
       </div>
 
       <ul class="header-menu-items">
-        <li><a class="header-active" href="/public">Feature requests</a></li>
-        <li><a href="/public">Changelog</a></li>
+        <li><a class="header-active" href="#">Feature requests</a></li>
+        <li><a href="#">Changelog</a></li>
       </ul>
     </div>
   </header>

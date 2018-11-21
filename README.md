@@ -1,3 +1,3 @@
-# 🥤 Friday with hyperhtml  
+# Friday with hyperhtml  
   
-https://lucasnsborges.github.io/feedback-mvc/  
+🥤 https://lucasnsborges.github.io/feedback-mvc/  
