@@ -3,7 +3,7 @@ const getConfig = require("wprun");
 const DEV = process.env.NODE_ENV === "development";
 
 module.exports = getConfig(__dirname, {
-  copyPluginOptions: [{ from: "*.ico", to: "./", context: "assets" }],
+  copyPluginOptions: [{ from: "*.png", to: "./assets", context: "assets" }],
   htmlPluginOptions: {
     title: "FeedbackMVC",
     description: "FeedbackMVC",

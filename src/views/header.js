@@ -5,7 +5,7 @@ export default html => html`
     <div class="header-content">
       <div class="logo">
         <a href="#">
-          <img class="header-logo-img" src="../../assets/logo.png" alt="Friday" />
+          <img class="header-logo-img" src="./assets/logo.png" alt="Friday" />
         </a>
       </div>
 
