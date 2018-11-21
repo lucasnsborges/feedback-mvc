@@ -109,7 +109,7 @@
   border-radius: 4px;
   color: #FFF;
   cursor: pointer;
-  padding: 10px 12px;
+  padding: 10px 54px;
   text-align: center;
   font-weight: 600;
   margin-top: 10px;
@@ -159,5 +159,14 @@
 .app-make-suggestion {
   margin-left: 2em;
   order: 2;
+  width: 100%;
+}
+@media (max-width: 900px) {
+  .app-content {
+    flex-wrap: wrap-reverse;
+  }
+  .app-make-suggestion {
+    margin-left: 0;
+  }
 }
 
