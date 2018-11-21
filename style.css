@@ -161,7 +161,7 @@
   order: 2;
   width: 100%;
 }
-@media (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .app-content {
     flex-wrap: wrap-reverse;
   }
