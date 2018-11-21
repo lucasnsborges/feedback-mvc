@@ -1,5 +1,3 @@
-import { wire } from "hyperhtml";
-import controller from "../controllers/ideas";
 import styles from "./header.less";
 
 export default html => html`
@@ -7,11 +5,7 @@ export default html => html`
     <div class="header-content">
       <div class="logo">
         <a href="#">
-          <img
-            class="header-logo-img"
-            src="https://pic.pimg.tw/asemia623/1464329611-2882284184.png"
-            alt="Marvel"
-          />
+          <img class="header-logo-img" src="../../assets/logo.png" alt="Friday" />
         </a>
       </div>
 

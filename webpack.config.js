@@ -5,8 +5,8 @@ const DEV = process.env.NODE_ENV === "development";
 module.exports = getConfig(__dirname, {
   copyPluginOptions: [{ from: "*.ico", to: "./", context: "assets" }],
   htmlPluginOptions: {
-    title: "TodoMVC",
-    description: "TodoMVC",
+    title: "FeedbackMVC",
+    description: "FeedbackMVC",
   },
   externalsPluginOptions: {
     externals: [
